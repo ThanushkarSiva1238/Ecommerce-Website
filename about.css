@@ -1,0 +1,96 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family:'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+nav ul li .active {
+    border-bottom: 2px solid #333;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero {
+    background-image: url("Pic/Cream\ Illustrative\ Digital\ Marketing\ Banner.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    background-position: center;
+    height: 550px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #f4f4f4;
+    font-size: 48px;
+    text-shadow: 0 0 10px #000000;
+}
+
+.hero p{
+    margin-top: -20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 10px #000000;
+}
+
+.about-us {
+    padding: 20px;
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.about-us-content p {
+    margin: 0 15px;
+}
+/* Add more styles as needed */
